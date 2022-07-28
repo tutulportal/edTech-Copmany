@@ -44,7 +44,7 @@
                     <a class="nav-link mx-2" href="#">Register</a>
                   </li>
                 </ul>
-                <a class="btn btn-primary bg-light text-primary fw-bold custom-btn-01" href="#">Sign Up</a>
+                <a class="btn btn-primary bg-light text-primary fw-bold custom-btn-01" href="#" data-bs-toggle="modal" data-bs-target="#registerNow">Sign Up</a>
               </div>
             </div>
         </nav>
@@ -197,12 +197,12 @@
         <!-- Explore the E-Learning -->
         <section class="container my-4 py-4">
             <div class="row bg-light my-4">
-                <div class="col-lg-5 col-md-12 col-sm-12 p-0">
+                <div class="col-lg-5 col-md-6 col-sm-12 p-0">
                     <img class="img-fluid w-100" src="images/working.png" alt="">
                 </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center flex-column p-4">
+                <div class="col-lg-7 col-md-6 col-sm-12 d-flex justify-content-center flex-column p-4">
                     <h1 class="text-dark fs-1 fw-bold custom-font-size-02">Explore The elearning Institute</h1>
-                    <p class="text-dark fs-5 fw-light lh-base">There are many variations of passages of Lorem Ipsum available, but the
+                    <p class="text-dark fs-5 fw-light lh-base custom-font-size-04">There are many variations of passages of Lorem Ipsum available, but the
                         majority have suffered alteration in some form, by injected humour, or
                         randomised words which don't look even slightly believable. If you are going
                         to use a passage of Lorem Ipsum, you need to be sure <br><br>
@@ -210,24 +210,81 @@
                         
                         Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
                         generators on the Internet tend to repeat predefined.</p>
-                    <div class="row py-4">
+                    <div class="row py-4 py-md-1">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <h2 class="text-dark fw-semibold fs-1 custom-font-size-03">3.2K+</h2>
-                            <p class="text-secondary fw-regular fs-5 lh-base">Online Course</p>
+                            <p class="text-secondary fw-regular fs-5 lh-base custom-font-size-05">Online Course</p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <h2 class="text-dark fw-semibold fs-1 custom-font-size-03">600+</h2>
-                            <p class="text-secondary fw-regular fs-5 lh-base">Expert member</p>
+                            <p class="text-secondary fw-regular fs-5 lh-base custom-font-size-05">Expert member</p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                             <h2 class="text-dark fw-semibold fs-1 custom-font-size-03">1k+</h2>
-                            <p class="text-secondary fw-regular fs-5 lh-base">Rating & Review</p>
+                            <p class="text-secondary fw-regular fs-5 lh-base custom-font-size-05">Rating & Review</p>
                         </div>
                     </div>
                     <div>
                         <a href="" class="btn btn-primary bg-primary text-light fw-regular text-uppercase fs-5 px-4 py-2">Read More</a>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Ready to Join -->
+        <section class="container my-4 custom-margin-ready-to-join">
+            <div class="row p-4 mx-lg-0 mx-md-0 mx-sm-0 mx-2 bg-primary rounded-3 custom-padding-read-to-join">
+                <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center custom-content-position-01">
+                    <h2 class="text-light fw-bold fs-1 lh-base">Ready to join?</h2>
+                    <p class="text-light fw-light fs-5 lh-base">It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 d-flex flex-column align-items-end justify-content-center custom-button-position">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-lg btn-light text-primary" data-bs-toggle="modal" data-bs-target="#registerNow">
+                        Register Now
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="registerNow" tabindex="-1" aria-labelledby="registerNowLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="registerNowLabel">Register Now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">New Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Register</button><br>
+                                <span>Have Account? Then</span><br>
+                                <button type="submit" class="btn btn-warning w-100">Login</button>
+                              </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                  
             </div>
         </section>
 

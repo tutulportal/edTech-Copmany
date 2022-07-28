@@ -59,6 +59,15 @@
     font-size: 50px !important;
 }
 
+/* custom ready to join section padding */
+.custom-padding-read-to-join{
+    padding: 70px !important;
+}
+
+.custom-margin-ready-to-join{
+    margin-bottom: 100px !important;
+    margin-top: 70px !important; 
+}
 
 
 
@@ -118,6 +127,31 @@
     .custom-popular-course-title > p{
         width: 100% !important;
     }
+
+    .custom-font-size-02{
+        font-size: 35px !important;
+    }
+
+    .custom-font-size-03{
+        font-size: 35px !important;
+    }
+
+    .custom-font-size-04{
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+
+    .custom-font-size-05{
+        font-size: 12px !important;
+    }
+
+    .custom-button-position{
+        align-items: center !important;
+    }
+
+    .custom-content-position-01{
+        align-items: center !important;
+    }
 }
 /* sm device */
 @media only screen and (max-width: 767px){
@@ -148,5 +182,13 @@
 
     .custom-popular-course-title > p{
         width: 100% !important;
+    }
+
+    .custom-button-position{
+        align-items: center !important;
+    }
+
+    .custom-content-position-01{
+        align-items: center !important;
     }
 }
