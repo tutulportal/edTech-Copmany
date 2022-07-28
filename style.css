@@ -74,6 +74,18 @@
     padding-bottom: 100px;
 }
 
+/* custom footer */
+.custom-footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 140%;
+}
+
+.custom-icon-style{
+    width: 37px !important;
+    height: 37px !important;
+}
+
 
 
 
