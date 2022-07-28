@@ -1,0 +1,106 @@
+/* CSS Modifies */
+
+/* custom buttons */
+.custom-btn-01{
+    padding: 13px 30px;
+}
+
+.custom-btn-02{
+    letter-spacing: 3px;
+    font-size: 16px !important;
+    padding: 12px 25px;
+}
+
+/* custom menu width */
+.custom-navbar-width{
+    width: calc(100% - 121px);
+}
+
+/* custom carousel height */
+.custom-carosuel-height{
+    height: 80vh;
+}
+
+.custom-carosuel-height > img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* custom font size */
+.custom-font-size-01{
+    font-size: 80px !important;
+}
+
+/* custom carousel caption */
+.carousel-caption{
+    bottom: 17.5%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------
+        Responsive Breakpoints 
+--------------------------------------*/
+/* lg device */
+@media only screen and (max-width: 1200px) {
+    
+}
+/* lg-md device */
+@media only screen and (max-width: 1023px){
+    
+}
+/* md device */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .custom-navbar-width{
+        width: 100%;
+    }
+
+    .custom-btn-01{
+        width: 100%;
+    }
+
+    .carousel-caption{
+        bottom: 3%;
+    }
+}
+/* sm device */
+@media only screen and (max-width: 767px){
+    .custom-navbar-width{
+        width: 100%;
+    }
+
+    .custom-btn-01{
+        width: 100%;
+    }
+    
+    .carousel-caption{
+        bottom: -35%;
+    }
+}
