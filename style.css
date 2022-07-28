@@ -37,6 +37,19 @@
     transform: translateY(-50%);
 }
 
+/* custom card info */
+.custom-card-info-01 {
+    padding: 0 25px !important;
+}
+
+/* custom popular course title */
+.custom-popular-course-title{
+    padding: 100px 0 50px 0;
+}
+
+.custom-popular-course-title > h2{
+    font-size: 50px !important;
+}
 
 
 
@@ -89,6 +102,14 @@
     .carousel-caption{
         bottom: 3%;
     }
+
+    .custom-popular-course-title > h2{
+        width: 100% !important;
+    }
+
+    .custom-popular-course-title > p{
+        width: 100% !important;
+    }
 }
 /* sm device */
 @media only screen and (max-width: 767px){
@@ -101,6 +122,23 @@
     }
     
     .carousel-caption{
-        bottom: -35%;
+        bottom: 0;
+    }
+
+    .custom-font-size-01{
+        font-size: 30px !important;
+    }
+
+    .custom-card-info-01 {
+        padding: 25px !important;
+    }
+
+    .custom-popular-course-title > h2{
+        width: 100% !important;
+        font-size: 25px !important;
+    }
+
+    .custom-popular-course-title > p{
+        width: 100% !important;
     }
 }
