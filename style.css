@@ -224,4 +224,8 @@
     .custom-accordion-width{
         width: 100% !important;
     }
+
+    .custom-padding-read-to-join{
+        padding: 20px !important;
+    }
 }
