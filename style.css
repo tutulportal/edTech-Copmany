@@ -69,6 +69,11 @@
     margin-top: 70px !important; 
 }
 
+/* custom frequently ask question */
+.custom-padding-frequently-ask{
+    padding-bottom: 100px;
+}
+
 
 
 
@@ -152,6 +157,14 @@
     .custom-content-position-01{
         align-items: center !important;
     }
+
+    .custom-content-width-01{
+        width: 100% !important;
+    }
+
+    .custom-accordion-width{
+        width: 100% !important;
+    }
 }
 /* sm device */
 @media only screen and (max-width: 767px){
@@ -190,5 +203,13 @@
 
     .custom-content-position-01{
         align-items: center !important;
+    }
+
+    .custom-content-width-01{
+        width: 100% !important;
+    }
+
+    .custom-accordion-width{
+        width: 100% !important;
     }
 }
